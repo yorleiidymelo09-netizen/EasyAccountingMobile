@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESUMEN FINANCIERO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#142D52"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalIngresos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total ingresos: $0"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalGastos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total gastos: $0"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo disponible: $0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#6750A4"/>
+
+</LinearLayout>
